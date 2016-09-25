@@ -1,0 +1,135 @@
+
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One';
+
+/* ->>>>>>>>>>>>>>> BASE STYLE >>>>>>>>>>>>>>>- */
+body {
+	font-family: 'Fjalla One', Impact, 'Helvetica Nueue', sans-serif;
+	font-size: 10px;
+	font-size: 1.250em;
+	color: #e9f8e7;
+	margin: 0;
+}
+
+
+ul li {
+   list-style: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: #e9f8e7;
+}
+
+a:active,
+a:visited {
+	text-decoration: none;
+	color: #e9f8e7;
+}
+
+a:hover {
+	color: #17a085;
+}
+
+#navBttn {
+	display: block;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: 20px;
+	right: 20px;
+	background-image: url('navBttn.png');
+	background-size: 100%;
+	cursor: pointer;
+}
+
+
+#navBox {
+	padding-top: 5.300em;
+	display: none;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(33, 33, 33, 0.88);
+}
+
+
+#icoBox {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: inline-block;
+	align-content: center;
+	text-align: center;
+}
+#navBox ul {
+	position: relative;
+	margin: 0 auto;
+}
+
+#navBox ul li {
+	text-align: center;
+	font-size: 1.520em;
+	padding-top: 1.005em;
+	padding-bottom: 1.005em;
+}
+
+#navBttnX {
+	display: block;
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	top: 20px;
+	right: 20px;
+	background-image: url('navBttnX.png');
+	background-size: 100%;
+	cursor: pointer;
+}
+
+#icoFacebook {
+	width: 35px;
+	height: 35px;
+	top: 20px;
+	right: 20px;
+	background-image: url('icoFacebook.png');
+	background-size: 100%;
+	cursor: pointer;
+	float: left;
+}
+#icoTwitter {
+	width: 35px;
+	height: 35px;
+	top: 20px;
+	right: 20px;
+	background-image: url('icoTwitter.png');
+	background-size: 100%;
+	cursor: pointer;
+	float: left;
+}
+
+#icoYoutube {
+	width: 35px;
+	height: 35px;
+	top: 20px;
+	right: 20px;
+	background-image: url('icoYoutube.png');
+	background-size: 100%;
+	cursor: pointer;
+	float: left;
+}
+
+#icoDribbble {
+	width: 35px;
+	height: 35px;
+	top: 20px;
+	right: 20px;
+	background-image: url('icoDribbble.png');
+	background-size: 100%;
+	cursor: pointer;
+	float: left;
+}
+
+
+.hide-box {
+	display: none;
+}
+
